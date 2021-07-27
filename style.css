@@ -1,16 +1,33 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-#cabecalho {
+#cabecalho {    
     top: 0;
     background-color: black;
     border-color: red;
     border-style: solid;
-    position: fixed;
+    border-width: 2px;
+    display: inline-block;
+    position: fixed;    
+    width: 98.5%;
+    margin: 0%;
+    opacity: 1;
 
 }
 
 #titulo {
-    color: white;
-    padding-left: 50%;
+    color: white;    
+    display: block;
+    margin: auto;
+    text-align-last: center;
+    opacity: 1;
+
+    
+    
+}
+
+#minha_foto {
+    width: 180px;    
+    border-radius: 20px;
+    margin-top: 95px;
 }
