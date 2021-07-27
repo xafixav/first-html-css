@@ -84,9 +84,12 @@ p, ol, ul {
     background-color: rgb(255, 208, 0) ;
     width: 33%;    
     display: inline-block;   
+    align-self: center;
     
 }
-
+.testemunho {
+    background-color: rgb(255, 208, 0);
+}
 #rodape {
     bottom: 0%;
     background-color: black;
