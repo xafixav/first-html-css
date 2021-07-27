@@ -1,42 +1,41 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+* {
+    margin: 0;
+}
 p, ol, ul {
     font-family: 'Courier New', Courier, monospace;
 }
 #cabecalho {    
     top: 0;
-    background-color: black;
-    border-color: red;
+    background-color: black;    
     border-style: solid;
     border-width: 2px;
-    display: inline-block;
+    display: block;
     position: fixed;    
-    width: 98.5%;   
-    border-radius: 12px; 
-    opacity: 1;
+    width: 100%;      
+    opacity: 1;     
 
 }
 
 .indice {
-    margin-top: 35px;
+    top: 40px;
     text-align: center;    
-  background-color: black;
-    border-color: red;
+  background-color: black;    
     border-style: solid;
     border-width: 2px;
-    display: inline-block;
+    display: block;
     position: fixed;    
-    width: 98.5%;   
-    border-radius: 12px; 
-    opacity: 1;  
+    width: 100%;       
+    opacity: 1; 
 }
-.texto_indice {
-    color: white;    
+.texto_indice, {
+    color: yellow;    
 }
 
 #titulo {
-    color: white;    
+    color: yellow;    
     display: block;
     margin: auto;
     text-align-last: center;
@@ -48,16 +47,35 @@ p, ol, ul {
     width: 180px;    
     border-radius: 20px;
     margin-top: 95px;
+    background-color: yellow;
+    padding: 5px;
+    display: block;
 }
+
+#licoes_aprendidas {
+    
+    background-color: green;
+    color: black;
+    margin-right: 10px;
+    width: 20%;    
+}
+#sobre_aprendizado, #passage_learning, #licoes_aprendidas, #licoes_a_aprender {
+    background-color: rgb(255, 208, 0) ;
+    opacity: .9;
+    width: 33%;
+    margin: 12px;
+    display: inline-block;
+}
+
 #rodape {
-    bottom: 0.2%;
+    bottom: 0%;
     background-color: black;
     border-color: red;
     border-style: solid;
     border-width: 2px;
-    display: inline-block;
+    display: block;
     position:relative;    
-    width: 98.5%;  
+    width: 100%;  
     color: white;  
     text-align: center;
     border-radius: 12px;
