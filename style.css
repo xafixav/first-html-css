@@ -9,7 +9,8 @@ body {
     border-width: 2px;
     display: inline-block;
     position: fixed;    
-    width: 98.5%;    
+    width: 98.5%;   
+    border-radius: 12px; 
 
 }
 
@@ -26,4 +27,17 @@ body {
     width: 180px;    
     border-radius: 20px;
     margin-top: 95px;
+}
+#rodape {
+    bottom: 0.2%;
+    background-color: black;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    position: absolute;    
+    width: 98.5%;  
+    color: white;  
+    text-align: center;
+    border-radius: 12px;
 }
