@@ -9,9 +9,7 @@ body {
     border-width: 2px;
     display: inline-block;
     position: fixed;    
-    width: 98.5%;
-    margin: 0%;
-    opacity: 1;
+    width: 98.5%;    
 
 }
 
@@ -20,9 +18,7 @@ body {
     display: block;
     margin: auto;
     text-align-last: center;
-    opacity: 1;
-
-    
+    opacity: 1;    
     
 }
 
