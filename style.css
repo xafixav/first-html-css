@@ -11,6 +11,7 @@ body {
     position: fixed;    
     width: 98.5%;   
     border-radius: 12px; 
+    opacity: 1;
 
 }
 
@@ -35,9 +36,17 @@ body {
     border-style: solid;
     border-width: 2px;
     display: inline-block;
-    position: absolute;    
+    position:relative;    
     width: 98.5%;  
     color: white;  
     text-align: center;
     border-radius: 12px;
+    margin-top: 20px;    
+}
+.indice {
+    margin-top: 50px;
+    text-align: center;    
+}
+.texto_indice{
+    
 }
