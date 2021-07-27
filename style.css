@@ -50,21 +50,41 @@ p, ol, ul {
     background-color: yellow;
     padding: 5px;
     display: block;
+   
 }
 
 #licoes_aprendidas {
-    
-    background-color: green;
-    color: black;
-    margin-right: 10px;
-    width: 20%;    
-}
-#sobre_aprendizado, #passage_learning, #licoes_aprendidas, #licoes_a_aprender {
     background-color: rgb(255, 208, 0) ;
-    opacity: .9;
-    width: 33%;
-    margin: 12px;
+    color: black;         
+    letter-spacing: 1px;  
+    line-height: 20px;  
+    height: 110%;
+    align-self: center;  
+    font-size: larger;
+    padding-right: 30px;
+    width: 30%;
     display: inline-block;
+    margin-left: 300px;
+
+}
+#licoes_a_aprender {
+
+    background-color: rgb(255, 208, 0) ;
+    color: black;    
+    line-height: 20px;  
+    height: 120%;
+    align-self: center;  
+    font-size: larger;
+    padding-right: 30px;
+    width: 30%;
+    display: inline-block;   
+
+}
+#sobre_aprendizado, #passage_learning {
+    background-color: rgb(255, 208, 0) ;
+    width: 33%;    
+    display: inline-block;   
+    
 }
 
 #rodape {
